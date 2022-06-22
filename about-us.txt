@@ -1,4 +1,6 @@
 Chan Phengaroune
+Hello, my name is Chan.
+I live in San Francisco, California.
 
 Evgeniy Ko
 I'm from Tashkent, Uzbekistan. I enjoy playing sports, and going to the gym.
@@ -15,3 +17,4 @@ years, and now I'm hoping to start a carreer as a software developer.
 
 Juwan Taylor
 I like watching Dr. Stone
+>>>>>>> b5310a80d502305a1bc1c38f5be8cf6491f9548c
