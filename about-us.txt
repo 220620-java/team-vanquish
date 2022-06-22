@@ -6,10 +6,13 @@ Franklyn Sanchez
 Hello! My name is Franklyn and I like to bowl.
 
 Eric Murcek
-
+I'm from Omaha, Nebraska and have a degree in Mechanical Engineering
 Michael Bollinger
 I'm from St. Louis, Missouri. I've been programming as a hobbiest for several
 years, and now I'm hoping to start a carreer as a software developer.
 
 Juwan Taylor
+<<<<<<< HEAD
+=======
 
+>>>>>>> 18c1f25385ff1be151eb402faa04c12ab858aeb2
