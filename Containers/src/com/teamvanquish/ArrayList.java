@@ -2,9 +2,18 @@ package com.teamvanquish;
 
 public class ArrayList implements List {
 
+    ArrayList() {
+        totalUsed = 0;
+        objectArray = new Object[10];
+    }
+    
+    ArrayList(int initialLength) {
+        objectArray = new Object[initialLength];
+        totalUsed = 0;
+    }
+    
     @Override
     public void add(Object obj) {
-        // TODO Auto-generated method stub
         if ( totalUsed == objectArray.length - 1 )
         {
             int newLength = objectArray.length + objectArray.length/2;
@@ -13,7 +22,6 @@ public class ArrayList implements List {
             System.arraycopy(objectArray, 0, newObjectArray, 0, objectArray.length);
             
             objectArray = newObjectArray;
-
         }
         
         objectArray[totalUsed] = obj;
@@ -53,7 +61,6 @@ public class ArrayList implements List {
 
     @Override
     public int indexOf(Object obj) {
-        // TODO Auto-generated method stub
         
         int foundIndex = -1;
         for ( int i = 0 ; i < totalUsed ; ++i )
@@ -68,7 +75,6 @@ public class ArrayList implements List {
         return foundIndex;
     }
 
-    Object[] objectArray = new Object[2];
-    int totalUsed = 0;
-
+    Object[] objectArray;
+    int totalUsed;
 }

@@ -31,6 +31,9 @@ public class Main {
         ArrayList myList = new ArrayList();
         
         myList.add(new TempObject());
+        
+        Object object1 = new TempObject();
+        myList.add(object1);
         myList.add(new TempObject());
         myList.add(new TempObject());
         
@@ -45,6 +48,29 @@ public class Main {
             ((TempObject) o).Display();
         }
         
+        myList.vanquish(2);
+        
+        o = myList.get(2);
+        
+        if ( o == null )
+        {
+            System.out.println("Failed to add to the ArrayList");
+        }
+        else
+        {
+            ((TempObject) o).Display();
+        }
+        
+        int index1 = myList.indexOf(object1);
+        
+        if ( index1 == -1 )
+        {
+            System.out.println("Object1 not found");
+        }
+        else
+        {
+            System.out.println("Index of object 1 is " + index1);
+        }
 
 
     }
